@@ -19,7 +19,7 @@ function validar() {
         errores++;
     } else if (isNaN(nombre.value) === false) {
         nombre.classList.add("is-invalid");
-        document.getElementById("warningnombre").textContent = "Introduzca su nombre";
+        document.getElementById("warningnombre").textContent = "No introduzca números";
         errores++;
     }
     if (apellidos.value == "") {
